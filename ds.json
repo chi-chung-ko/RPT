@@ -1,0 +1,54 @@
+{
+  "factorySno": "1",
+  "woSno": "2",
+  "lotSid": "3",
+  "createDate": "4",
+  "materialSno": "5",
+  "materialName": "6",
+  "quality": 10,
+  "lotSize": 10,
+  "erpCreateDatetime": "",
+  "scheduleDate": "",
+  "preStartDatetime": "",
+  "erpStatus": 1,
+  "routeName": "A",
+  "operations": [
+    {
+      "stepSeq": 10,
+      "sno": "C",
+      "name": "C",
+      "description": "C"
+    },
+    {
+      "stepSeq": 20,
+      "sno": "D",
+      "name": "D",
+      "description": "D"
+    },
+    {
+      "stepSeq": 30,
+      "sno": "E01",
+      "name": "E01",
+      "description": "E01"
+    },
+    {
+      "stepSeq": 40,
+      "sno": "X12",
+      "name": "77",
+      "description": "77"
+    },
+    {
+      "stepSeq": 50,
+      "sno": "Z88",
+      "name": "Z88",
+      "description": "Z88"
+    },
+    {
+      "stepSeq": 60,
+      "sno": "I",
+      "name": "009",
+      "description": "I099"
+    }
+
+  ]
+}

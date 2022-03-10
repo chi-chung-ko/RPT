@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="03/09/2022 14:57:46" ReportInfo.Modified="03/10/2022 16:09:50" ReportInfo.CreatorVersion="2022.1.0.0">
+  <Dictionary>
+    <JsonDataSourceConnection Name="Connection" ConnectionString="rijcmlq/AK8fHq9NCV1hPcNUMdw7OEmCx+q+JSbHG5q3/2t9W+ircbD/gFYUy0bKxVPRCJ9Tsre8XlbAN0fIGFH8Nn0wQXFRkw95FI95ilYHWYpJiIuljuEdRQAeJsIUsEYWtutUuUXdJ4D/pqvSc0bFUZQOAAD6J7RQdQ+CiC3SgSYBtWhl6SO20g3esTTEw1huMWpzJm0vgFGioA45sIcaODtPHeNmyOTVpdFC7IkGGFtc64wXqHmuDeHWSTCXWS0jWPtQOGOK3l0qToZ9M1UwEYQTWSL3WIdRSlGKtQ9TRtgs2iH1anr/5sv0yrxS91grPkRPKS0MFS5n0GHrwgjqRgtfA/T1A64uiisxhAKuTQ98hcgLetE7qDRtwniQF89VphmkFKbeiL6QjQg9ir25NpEag4mjKSSkKPwhjGfuLB+s1XBCmsCd0BEtQTWFeUMickFqlBIcWi6XqpjBDEWRglvE1m3tlPnr/OeUJ6wCBXjI1vbOzxRO4dgdVcsGUuzoUf6nrztUHXzv41vtVFCQtBMEF04gsImPFn6GIxVRONvvnuwXiTOABwo/F4nNWCbdl9sMns0Ni1ySFcsvXL9Xdp8p8UORdiI1Yd+rJMnUMF/vUX7WYBRhnzld0kdOQMrZ+KCSsCwLRm/NCyEgPpHhiN9usRgMStMEiz+MUUM2Df7d/J2OowM4+FwVZXmzlP8UUdTJ4wuA5SszlsdZdLFAfHn1Lvshgv7CBYElpo0uu3lKpma0o2GSqtFnbJEfvMhRW9CV1nkER/NgEkFnO+GNa4w+FnekOzvvL2CMv/bvXnZlK2MW9iaHvuoqhyRGrxJ41yAGg5Jj6xN5qVCBNXbCSULpcdNXz1ZRdNn/gTUyJd3YqsRndE5wAhAE4Yy7166J1yB13Wn9Xnsk1xAEfFL9o9aghjVRpu4w7Be5rAWMi4KAxjZsHQGBkUtok7c3OcGXqlxzmONWGlr3BdWzfN834c53sfwVccgZc619nMlSfQptNkCvUBFbNrbmrCO8kwUxfbFbY76DFFqfSZt1HMOGABGB/svV8xStqlnialwv5x6a4bup5wsiuWxpRKvFh1QZXLjyRaFePQAxgLWxIfVAcJyaD0fkZimJnTPKTTvF7xqaxSDvJE3CHw5KL14aHokznVNDmDsTluWdgkFrcKSIKY5yHGSlt4E12fPKJgbvvFP60MTWmMyMBheFbN6dWKbOvBwofrGEdZg+cDJTVVmQseAKwKIJDtEkDj2DPrbVsULYgX8VD1x//CIIKuTjA7vm9D5tJIaP+Kyy6w60+F3zybcmpVbW9h0/lJs3dkMBGQIlsQK7LnQcHDsemRcowdsRB3Z56fFCf0j1jg3xTVozkD1kxrMiuDn3ikgWehE+cAsXuPsu3gLYSIWIuZZ9y8ZshED0VymLKJPfcQ8sdGxotxpSWBm99uQU/VzPoTzBEX/+hp5HchdLcSonJENOBOn/tN+7qPPEfFctJY/ycSiitND/vYhPxlU+LRNv9Y2L1HhnnAjlxCAl2f+kJMFQkN22eJdnA+pvlB/UHRWZL4HjoYr+7mRzw3QrUHTLSdB9jps9nNVLRLioiq/NYgz6kEuNzGpo7nznIzarl5cWAmy0jz8V6Wq3Md6aNWzRd4kpo5tpRxCbcseKFzx+4KcX4M3qmQn5S6TPps+8LQqXbIBhQDeZXK8lAGHKegRL7T/NICj3/sMTzO49nbeXhF1TxPVa/nhkIW3Cpm12G1q8iRnIE/8Oh3IGLm+pbbeCE8uiXTXF+vWcJz8u4NEiSimnw1NI6n7tli+XFq7VG+wOLOyOhvfgA==">
+      <JsonTableDataSource Name="JSON" DataType="FastReport.Data.JsonConnection.JsonParser.JsonArray" Enabled="true" TableName="JSON">
+        <Column Name="index" Enabled="false" DataType="System.Int32"/>
+        <Column Name="item" DataType="FastReport.JsonBase">
+          <Column Name="factorySno" Enabled="false" DataType="System.String"/>
+          <Column Name="woSno" DataType="System.String"/>
+          <Column Name="lotSid" DataType="System.String"/>
+          <Column Name="createDate" Enabled="false" DataType="System.String"/>
+          <Column Name="materialSno" Enabled="false" DataType="System.String"/>
+          <Column Name="materialName" Enabled="false" DataType="System.String"/>
+          <Column Name="quality" Enabled="false" DataType="System.Double"/>
+          <Column Name="lotSize" Enabled="false" DataType="System.Double"/>
+          <Column Name="erpCreateDatetime" Enabled="false" DataType="System.String"/>
+          <Column Name="scheduleDate" Enabled="false" DataType="System.String"/>
+          <Column Name="preStartDatetime" Enabled="false" DataType="System.String"/>
+          <Column Name="erpStatus" Enabled="false" DataType="System.Double"/>
+          <Column Name="routeName" Enabled="false" DataType="System.String"/>
+          <JsonTableDataSource Name="operations" DataType="FastReport.JsonBase" Enabled="true">
+            <Column Name="index" DataType="System.Int32"/>
+            <Column Name="item" DataType="FastReport.JsonBase">
+              <Column Name="name" DataType="System.String"/>
+              <Column Name="description" DataType="System.String"/>
+              <Column Name="stepSeq" DataType="System.Double"/>
+              <Column Name="sno" DataType="System.String"/>
+            </Column>
+            <Column Name="array" DataType="FastReport.JsonBase"/>
+          </JsonTableDataSource>
+        </Column>
+        <Column Name="array" Enabled="false" DataType="FastReport.JsonBase"/>
+      </JsonTableDataSource>
+    </JsonDataSourceConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" FirstPageSource="15" OtherPagesSource="15" LastPageSource="15" Watermark.Font="宋体, 60pt">
+    <ReportTitleBand Name="ReportTitle1" Width="1047.06" Height="113.4">
+      <TextObject Name="Text1" Left="378" Top="18.9" Width="292.95" Height="28.35" Text="Company" Font="方正楷體, 20pt"/>
+      <TextObject Name="Text16" Left="-9450" Top="-9450" Width="85.05" Height="18.9" Text="開單日期:" Font="方正楷體, 12pt"/>
+    </ReportTitleBand>
+    <PageHeaderBand Name="PageHeader1" Top="118.73" Width="1047.06" Height="151.2">
+      <TableObject Name="Header" Width="1047.08" Height="151.13" Border.Lines="All">
+        <TableColumn Name="Column1" Width="80.81"/>
+        <TableColumn Name="Column2" Width="232.01"/>
+        <TableColumn Name="Column3" Width="80.81"/>
+        <TableColumn Name="Column4" Width="165.84"/>
+        <TableColumn Name="Column15" Width="83.25"/>
+        <TableColumn Name="Column16" Width="102.16"/>
+        <TableColumn Name="Column17" Width="302.2"/>
+        <TableRow Name="Row1" Height="35.42">
+          <TableCell Name="Cell1" Text="Wo" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell2" Text="[JSON.item.woSno]" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell3" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell4" Format="Date" Format.Format="d" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell80" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell81" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell88" Font="宋体, 9pt"/>
+        </TableRow>
+        <TableRow Name="Row2" Height="35.42">
+          <TableCell Name="Cell6" Text="Lot" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell7" Text="[JSON.item.lotSid]" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell8" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell9" Format="Date" Format.Format="d" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell82" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell83" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell89" Font="宋体, 9pt"/>
+        </TableRow>
+        <TableRow Name="Row3" Height="35.42">
+          <TableCell Name="Cell11" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell12" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell13" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell14" Format="Date" Format.Format="d" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell84" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell85" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell90" Font="宋体, 9pt"/>
+        </TableRow>
+        <TableRow Name="Row4" Height="44.87">
+          <TableCell Name="Cell16" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell17" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell18" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell19" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell86" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell87" VertAlign="Center" Font="方正楷體, 12pt"/>
+          <TableCell Name="Cell91" Font="宋体, 9pt"/>
+        </TableRow>
+      </TableObject>
+    </PageHeaderBand>
+    <DataBand Name="Data1" Top="275.27" Width="1047.06" Height="311.91" DataSource="operations">
+      <TableObject Name="Data" Width="1047.1" Height="103.96" Border.Lines="All">
+        <TableColumn Name="Column5" Width="104.71"/>
+        <TableColumn Name="Column6" Width="104.71"/>
+        <TableColumn Name="Column7" Width="104.71"/>
+        <TableColumn Name="Column8" Width="104.71"/>
+        <TableColumn Name="Column9" Width="104.71"/>
+        <TableColumn Name="Column10" Width="104.71"/>
+        <TableColumn Name="Column11" Width="104.71"/>
+        <TableColumn Name="Column12" Width="104.71"/>
+        <TableColumn Name="Column13" Width="104.71"/>
+        <TableColumn Name="Column14" Width="104.71"/>
+        <TableRow Name="Row5" Height="51.98">
+          <TableCell Name="Cell20" Border.Lines="All" Text="Seq" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell21" Border.Lines="All" Text="Operation" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell22" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell23" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell24" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell45" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell46" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell47" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell48" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell49" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+        </TableRow>
+        <TableRow Name="Row6" Height="51.98">
+          <TableCell Name="Cell25" Border.Lines="All" Text="[JSON.item.operations.item.stepSeq]&#13;&#10;[JSON.item.operations.item.sno]" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell26" Border.Lines="All" Text="[JSON.item.operations.item.name][JSON.item.operations.item.description]" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell27" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell28" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell29" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell50" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell51" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell52" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell53" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+          <TableCell Name="Cell54" Border.Lines="All" HorzAlign="Justify" VertAlign="Center" Font="方正楷體, 14pt"/>
+        </TableRow>
+      </TableObject>
+    </DataBand>
+    <PageFooterBand Name="PageFooter1" Top="592.51" Width="1047.06" Height="18.9"/>
+  </ReportPage>
+</Report>
